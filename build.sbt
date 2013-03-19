@@ -1,6 +1,6 @@
-name := "b"
+name := "c"
 
-description := "Project B from testing_dsbt."
+description := "Project C from testing_dsbt."
 
 version := "0.1-SNAPSHOT"
 
