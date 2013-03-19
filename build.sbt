@@ -1,6 +1,6 @@
-name := "b"
+name := "e"
 
-description := "Project B from testing_dsbt."
+description := "Project E from testing_dsbt, depends on C."
 
 version := "0.1-SNAPSHOT"
 
@@ -16,4 +16,4 @@ publishTo := Some("rover" at "http://localhost:8088/artifactory/toni-maven/")
 
 publishMavenStyle := true
 
-libraryDependencies += "buongiorno" %% "a" % "0.1-SNAPSHOT"
+libraryDependencies += "buongiorno" %% "c" % "0.1-SNAPSHOT"
