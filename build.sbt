@@ -15,6 +15,7 @@ credentials in ThisBuild += Credentials(Path.userHome / ".ivy2" / ".credentials-
 publishTo := Some("rover" at "http://localhost:8088/artifactory/toni-maven/")
 
 publishMavenStyle := true
+
 libraryDependencies += "buongiorno" %% "b" % "0.1-SNAPSHOT"
 
 resolvers += "rover" at "http://localhost:8088/artifactory/toni-maven/"
