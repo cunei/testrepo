@@ -1,15 +1,5 @@
-<link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet"></link>
-
-# dbuild
+# test repo
 
 ## Description
 
-*dbuild*, or distributed-build, is a build and debugging tool based on sbt.
-
-It is used to coordinate the development of multiple, independent projects
-that evolve in parallel: dbuild uses a multi-project definition file to build
-all the requested projects, and make sure that they all work together, even
-though each of them may evolve independently.
-
-You can find the complete dbuild documentation at the
-[dbuild web site](http://typesafehub.github.com/distributed-build).
+Each branch is a variant of a standard proj. Projects are in a network, as in a,b,c, then d depends on a, e depends on b, etc. The whole thing is useful to test the dbuild tool
