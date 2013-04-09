@@ -12,9 +12,9 @@ organizationName := "Buongiorno, Inc."
 
 credentials in ThisBuild += Credentials(Path.userHome / ".ivy2" / ".credentials-rover")
 
-publishTo := Some("rover" at "http://localhost:8088/artifactory/toni-maven/")
+publishTo := Some(Resolver.url("roverout", new URL("http://localhost:8088/artifactory/tonirepo/temp-distributed-build-snapshots/"))(Resolver.ivyStylePatterns))
 
-publishMavenStyle := true
+publishMavenStyle := false
 
 libraryDependencies += "buongiorno" %% "a" % "0.1-SNAPSHOT"
 
