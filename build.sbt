@@ -18,4 +18,6 @@ publishMavenStyle := true
 
 libraryDependencies += "buongiorno" %% "c" % "0.1-SNAPSHOT"
 
+libraryDependencies += "not" %% "existing" % "0.1-SNAPSHOT"
+
 resolvers += "rover" at "http://localhost:8088/artifactory/toni-maven/"
