@@ -4,7 +4,7 @@ description := "Project F from testing_dsbt, depends on C."
 
 version := "0.1-SNAPSHOT"
 
-scalaVersion := "2.9.2"
+scalaVersion := "2.10.5"
 
 organization := "buongiorno"
 
